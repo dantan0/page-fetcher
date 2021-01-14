@@ -28,9 +28,3 @@ const requestContent = function(input) {
 };
 
 requestContent(process.argv);
-
-// request('https://www.google.com/fdsafsafsa.html', (error, response, body) => {
-//   console.log('error: ', error);
-//   console.log('response: ', response && response.statusCode);
-//   console.log('body: ', body);
-// });
